@@ -51,7 +51,7 @@ const data = await p; // { id: number }
 
 Returns an object that is both:
 
-- a `Promise<T>`
+- a `PromiseLike<T>`
 - a function `(value: T) => void` that resolves it
 
 ## License
